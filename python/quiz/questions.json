@@ -1,0 +1,51 @@
+[
+    {
+        "A": "_myvar",
+        "B": "Myvar",
+        "C": "my_var",
+        "D": "my-var",
+        "question": "Which variable is NOT valid",
+        "correct": "D"
+    },
+    {
+        "A": "random.randint(0, 10)",
+        "B": "Math.random(0, 10)",
+        "C": "int number = random(0,10)",
+        "D": "Random random = new Random() int number = random(Next(0, 10)",
+        "question": "How to create random int in C#",
+        "correct": "D"
+    },
+    {
+        "A": "Heavy",
+        "B": "Dynamic",
+        "C": "Strong",
+        "D": "Light",
+        "question": "Python is \"x\" typed",
+        "correct": "B"
+    },
+    {
+        "A": "Error: cannot add list to list",
+        "B": "21",
+        "C": "[5, 7, 9]",
+        "D": "[1, 2, 3, 4, 5, 6]",
+        "question": "What is the output of the following code:\nx = [1, 2, 3]\ny = [4, 5, 6]\nprint(x + y)",
+        "correct": "D"  
+    },
+    {
+        "A": "[1], [1, 2], [1, 2, 3]",
+        "B": "[1], [2], [3]",
+        "C": "[1, 2, 3], [1, 2, 3], [1, 2, 3] ",
+        "D": "[1, 2, 3], [2, 3], [3]",
+        "question": "What is the output of the following code:\ndef foo(x, y=[]):\n\ty.append(x)\n\treturn y\n\nprint(foo(1)\nprint(foo(2)\nprint(foo(3)",
+        "correct": "D"  
+    },
+    {
+        "A": "Lists are ordered collections of items.",
+        "B": "Lists can contain elements of different types.",
+        "C": "Lists are immutable.",
+        "D": "Lists are implemented as linked lists in Python.",
+        "question": "Which of the following statements is NOT true about lists in Python?",
+        "correct": "C"  
+    }
+
+]
