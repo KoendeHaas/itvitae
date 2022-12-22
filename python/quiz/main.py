@@ -1,7 +1,8 @@
+""" Quiz tool"""
 import json
 import random
 
-with open ("questions.json") as questions:
+with open("questions.json", encoding='UTF-8') as questions:
     questions = json.load(questions)
     random.shuffle(questions)
 
